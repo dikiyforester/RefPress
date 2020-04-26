@@ -1,0 +1,1709 @@
+# Copyright (C) 2020 ArThemes
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: RefPress 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-26 11:51:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ArThemes\n"
+"Language-Team: ArThemes\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: header.php:27 wporg-developer/header.php:17
+msgid "Menu"
+msgstr ""
+
+#: header.php:55
+msgid ""
+"Browse the latest developer documentation including functions, classes, "
+"methods, hooks and sample code."
+msgstr ""
+
+#: header.php:62 wporg-developer/header.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:76 wporg-developer/header.php:42
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:85 wporg-developer/header.php:51
+msgid "Search"
+msgstr ""
+
+#: wporg-developer/404.php:18
+msgid "That page can&rsquo;t be found."
+msgstr ""
+
+#: wporg-developer/404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: wporg-developer/archive-command.php:24 wporg-developer/inc/cli.php:54
+msgid "Command"
+msgstr ""
+
+#: wporg-developer/archive-command.php:25
+#: wporg-developer/reference/template-changelog.php:23
+#: wporg-developer/reference/template-description.php:14
+#: wporg-developer/reference/template-related.php:33
+#: wporg-developer/reference/template-related.php:73
+msgid "Description"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Reference"
+msgstr ""
+
+#: wporg-developer/comments-edit.php:38 wporg-developer/comments-edit.php:46
+#: wporg-developer/inc/user-content.php:390
+#. translators: %d: comment ID
+msgid "note %d"
+msgstr ""
+
+#: wporg-developer/comments-edit.php:55 wporg-developer/content-command.php:31
+#: wporg-developer/content-handbook.php:19 wporg-developer/content-page.php:23
+#: wporg-developer/content-post.php:64 wporg-developer/content-single.php:60
+#: wporg-developer/content.php:60 wporg-developer/inc/breadcrumb-trail.php:1141
+#: wporg-developer/inc/breadcrumb-trail.php:1177
+#: wporg-developer/inc/breadcrumb-trail.php:1194
+#: wporg-developer/inc/breadcrumb-trail.php:1225
+#: wporg-developer/inc/template-tags.php:321
+#: wporg-developer/inc/template-tags.php:325
+#: wporg-developer/inc/template-tags.php:354
+#: wporg-developer/inc/template-tags.php:358
+#: wporg-developer/inc/template-tags.php:480
+msgid "Edit"
+msgstr ""
+
+#: wporg-developer/comments-edit.php:65
+msgid "Edit Note %d"
+msgstr ""
+
+#: wporg-developer/comments-edit.php:71
+#. translators: 1: comment title, 2: comment author name, 3: reference type
+#. (function, class, method, hook), 4: post title
+msgid "This is a feedback note to %1$s by %2$s for the %3$s %4$s."
+msgstr ""
+
+#: wporg-developer/comments-edit.php:76
+#. translators: 1: reference type (function, class, method, hook), 2: post
+#. title
+msgid "This is a note for the %1$s %2$s."
+msgstr ""
+
+#: wporg-developer/comments-edit.php:79
+msgid "You can edit this note as long as it's in moderation."
+msgstr ""
+
+#: wporg-developer/comments.php:28 wporg-developer/comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: wporg-developer/comments.php:29 wporg-developer/comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: wporg-developer/comments.php:30 wporg-developer/comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: wporg-developer/comments.php:75
+msgid "Leave a reply"
+msgstr ""
+
+#: wporg-developer/content-command.php:21 wporg-developer/content-post.php:23
+#: wporg-developer/content.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: wporg-developer/content-command.php:24 wporg-developer/content-page.php:18
+#: wporg-developer/content-post.php:26 wporg-developer/content-single.php:20
+#: wporg-developer/content.php:26
+msgid "Pages:"
+msgstr ""
+
+#: wporg-developer/content-handbook.php:17
+msgid "(More ...)"
+msgstr ""
+
+#: wporg-developer/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: wporg-developer/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: wporg-developer/content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: wporg-developer/content-post.php:37 wporg-developer/content-post.php:47
+#: wporg-developer/content-single.php:29 wporg-developer/content-single.php:32
+#: wporg-developer/content.php:37 wporg-developer/content.php:47
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: wporg-developer/content-post.php:41 wporg-developer/content.php:41
+msgid "Posted in %1$s"
+msgstr ""
+
+#: wporg-developer/content-post.php:51 wporg-developer/content.php:51
+msgid "Tagged %1$s"
+msgstr ""
+
+#: wporg-developer/content-post.php:59 wporg-developer/content.php:57
+msgid "Leave a comment"
+msgstr ""
+
+#: wporg-developer/content-post.php:59 wporg-developer/content.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: wporg-developer/content-post.php:59 wporg-developer/content.php:57
+msgid "% Comments"
+msgstr ""
+
+#: wporg-developer/content-reference-archive.php:30
+#. translators: 1: permalink, 2: number of functions
+msgid "Used by <a href=\"%1$s\">%2$d function</a>"
+msgid_plural "Used by <a href=\"%1$s\">%2$d functions</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wporg-developer/content-reference-archive.php:37
+#. translators: 1: permalink, 2: number of functions
+msgid "Uses <a href=\"%1$s\">%2$d function</a>"
+msgid_plural "Uses <a href=\"%1$s\">%2$d functions</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wporg-developer/content-reference.php:23
+msgid "Contents"
+msgstr ""
+
+#: wporg-developer/content-single.php:37
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: wporg-developer/content-single.php:39
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: wporg-developer/content-single.php:45
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a "
+"href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: wporg-developer/content-single.php:47
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: wporg-developer/functions.php:234
+msgid "Sidebar"
+msgstr ""
+
+#: wporg-developer/functions.php:243
+msgid "Landing Page Footer - Left"
+msgstr ""
+
+#: wporg-developer/functions.php:245 wporg-developer/functions.php:255
+msgid "Appears in footer of the primary landing page"
+msgstr ""
+
+#: wporg-developer/functions.php:253
+msgid "Landing Page Footer - Center"
+msgstr ""
+
+#: wporg-developer/functions.php:283
+msgid "Developer Resources Menu"
+msgstr ""
+
+#: wporg-developer/functions.php:284
+msgid "WP-CLI Commands Menu"
+msgstr ""
+
+#: wporg-developer/functions.php:285
+msgid "Reference API Menu"
+msgstr ""
+
+#: wporg-developer/functions.php:366
+#: wporg-developer/reference/template-notes.php:15
+msgid "User Contributed Notes"
+msgstr ""
+
+#: wporg-developer/functions.php:402
+#: wporg-developer/reference/template-source.php:29
+msgid "Expand full source code"
+msgstr ""
+
+#: wporg-developer/functions.php:403
+#: wporg-developer/reference/template-source.php:30
+msgid "Collapse full source code"
+msgstr ""
+
+#: wporg-developer/header.php:25
+msgid "The freedom to build."
+msgstr ""
+
+#: wporg-developer/inc/admin.php:109
+msgid "Reset votes (%d)"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:189
+msgid "Browse:"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:191
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:192
+msgid "404 Not Found"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:193
+msgid "Page %d"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:194
+msgid "Archives"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:195
+msgid "g:i a"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:196
+msgid "Minute %d"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:197
+msgid "g a"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:198
+msgid "d"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:199
+msgid "Week %d"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:200
+msgid "F"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:201
+#: wporg-developer/inc/breadcrumb-trail.php:1042
+msgid "Y"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:1046
+msgid "F Y"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:1050
+msgid "F j, Y"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:1169
+msgid "Split"
+msgstr ""
+
+#: wporg-developer/inc/breadcrumb-trail.php:1173
+msgid "Merge"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:51 wporg-developer/inc/cli.php:53
+#: wporg-developer/inc/cli.php:55 wporg-developer/inc/cli.php:65
+msgid "Commands"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:56
+msgid "New Command"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:57 wporg-developer/inc/registrations.php:56
+#: wporg-developer/inc/registrations.php:90
+#: wporg-developer/inc/registrations.php:120
+#: wporg-developer/inc/registrations.php:150
+msgid "Add New"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:58
+msgid "Add New Command"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:59
+msgid "Edit Command"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:60
+msgid "View Command"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:61
+msgid "Search Commands"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:62
+msgid "No Commands found"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:63
+msgid "No Commands found in trash"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:64
+msgid "Parent Command"
+msgstr ""
+
+#: wporg-developer/inc/cli.php:460
+msgid "Top &uarr;"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:87
+#: wporg-developer/inc/explanations.php:89
+msgid "Explanations"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:88
+#: wporg-developer/inc/explanations.php:227
+msgid "Explanation"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:90
+#: wporg-developer/inc/explanations.php:409
+#: wporg-developer/inc/explanations.php:410
+#: wporg-developer/inc/explanations.php:438
+#: wporg-developer/inc/explanations.php:517
+msgid "Edit Explanation"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:91
+msgid "View Explanation"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:92
+msgid "Search Explanations"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:93
+msgid "No Explanations found"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:94
+msgid "No Explanations found in trash"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:185
+msgid "Explanations %s"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:233
+msgid "Status:"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:244
+msgid "Last Modified:"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:274
+msgid "Associated with: "
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:327
+msgid "Explanation Editor"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:416
+#: wporg-developer/inc/explanations.php:450
+msgid "Add Explanation"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:442
+msgid "Unpublish"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:447
+#: wporg-developer/inc/explanations.php:482
+msgid "None"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:472
+#: wporg-developer/inc/explanations.php:519
+msgid "Draft"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:475
+#: wporg-developer/inc/explanations.php:520
+msgid "Pending Review"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:478
+#: wporg-developer/inc/explanations.php:521
+msgid "Published"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:539
+msgid "Explanation already exists."
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:558
+msgid "Explanation could not be created."
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:585
+msgid "Explanation could not be un-published."
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:609
+msgid "Has explanation?"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:610
+msgid "Explanation?"
+msgstr ""
+
+#: wporg-developer/inc/explanations.php:633
+msgid "Post has an explanation."
+msgstr ""
+
+#: wporg-developer/inc/extras.php:57
+msgid "Action Hook"
+msgstr ""
+
+#: wporg-developer/inc/extras.php:61
+msgid "Filter Hook"
+msgstr ""
+
+#: wporg-developer/inc/extras.php:64
+msgid "Action Hook (deprecated)"
+msgstr ""
+
+#: wporg-developer/inc/extras.php:67
+msgid "Filter Hook (deprecated)"
+msgstr ""
+
+#: wporg-developer/inc/handbooks.php:141
+msgid "Handbook Editor"
+msgstr ""
+
+#: wporg-developer/inc/handbooks.php:281
+#: wporg-developer/inc/template-tags.php:654
+msgid "Common APIs Handbook"
+msgstr ""
+
+#: wporg-developer/inc/head.php:76
+msgid "Page %s"
+msgstr ""
+
+#: wporg-developer/inc/head.php:112
+msgid ""
+"Official WordPress developer resources including a code reference, "
+"handbooks (for APIs, plugin and theme development, block editor), and more."
+msgstr ""
+
+#: wporg-developer/inc/head.php:115
+msgid ""
+"Want to know what&#8217;s going on inside WordPress? Find out more "
+"information about its functions, classes, methods, and hooks."
+msgstr ""
+
+#: wporg-developer/inc/head.php:124
+#. translators: %s: translated label for all items of a post type.
+msgid "Code Reference archive for WordPress %s."
+msgstr ""
+
+#: wporg-developer/inc/import-block-editor.php:97
+#: wporg-developer/inc/template-tags.php:656
+msgid "Block Editor Handbook"
+msgstr ""
+
+#: wporg-developer/inc/import-coding-standards.php:28
+#: wporg-developer/inc/template-tags.php:660
+msgid "Coding Standards Handbook"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:57
+msgid "Parsed Content"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:78
+msgid "Core Trac"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:79
+msgid "A valid, open ticket from %s is required to edit parsed content."
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:87
+msgid "Parsed Summary:"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:96
+msgid "Parsed Description:"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:114
+msgid "Trac Ticket Number:"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:119
+msgid "Attach a Core Trac ticket"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:120
+msgid "Attach Ticket"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:122
+msgid "Detach the Trac ticket"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:123
+msgid "Detach Ticket"
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:170
+msgid "Searching ..."
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:171
+msgid "Invalid ticket number, please try again."
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:226
+msgid "Invalid ticket number."
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:250
+msgid "Ticket detached."
+msgstr ""
+
+#: wporg-developer/inc/parsed-content.php:257
+msgid "Ticket still attached."
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:50
+#: wporg-developer/inc/registrations.php:52
+#: wporg-developer/inc/registrations.php:54
+#: wporg-developer/inc/registrations.php:64
+#: wporg-developer/inc/template-tags.php:577
+#: wporg-developer/page-reference-landing.php:29
+#: wporg-developer/searchform.php:57
+msgid "Functions"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:53
+msgid "Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:55
+msgid "New Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:57
+msgid "Add New Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:58
+msgid "Edit Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:59
+msgid "View Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:60
+msgid "Search Functions"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:61
+msgid "No Functions found"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:62
+msgid "No Functions found in trash"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:63
+msgid "Parent Function"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:84
+#: wporg-developer/inc/registrations.php:86
+#: wporg-developer/inc/registrations.php:88
+#: wporg-developer/inc/registrations.php:98
+#: wporg-developer/inc/template-tags.php:576
+#: wporg-developer/page-reference-landing.php:31
+#: wporg-developer/searchform.php:59
+msgid "Classes"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:87
+msgid "Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:89
+msgid "New Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:91
+msgid "Add New Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:92
+msgid "Edit Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:93
+msgid "View Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:94
+msgid "Search Classes"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:95
+msgid "No Classes found"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:96
+msgid "No Classes found in trash"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:97
+msgid "Parent Class"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:114
+#: wporg-developer/inc/registrations.php:116
+#: wporg-developer/inc/registrations.php:118
+#: wporg-developer/inc/registrations.php:128
+#: wporg-developer/inc/template-tags.php:578
+#: wporg-developer/page-reference-landing.php:30
+#: wporg-developer/searchform.php:58
+msgid "Hooks"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:117
+msgid "Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:119
+msgid "New Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:121
+msgid "Add New Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:122
+msgid "Edit Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:123
+msgid "View Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:124
+msgid "Search Hooks"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:125
+msgid "No Hooks found"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:126
+msgid "No Hooks found in trash"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:127
+msgid "Parent Hook"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:144
+#: wporg-developer/inc/registrations.php:146
+#: wporg-developer/inc/registrations.php:148
+#: wporg-developer/inc/registrations.php:158
+#: wporg-developer/inc/template-tags.php:579
+#: wporg-developer/page-reference-landing.php:32
+#: wporg-developer/reference/template-methods.php:17
+#: wporg-developer/searchform.php:60
+msgid "Methods"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:147
+msgid "Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:149
+msgid "New Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:151
+msgid "Add New Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:152
+msgid "Edit Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:153
+msgid "View Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:154
+msgid "Search Methods"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:155
+msgid "No Methods found"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:156
+msgid "No Methods found in trash"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:157
+msgid "Parent Method"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:178
+#: wporg-developer/inc/registrations.php:180
+#: wporg-developer/inc/registrations.php:194
+msgid "Files"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:182
+msgid "Search Files"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:184
+msgid "All Files"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:185
+msgid "Parent File"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:186
+msgid "Parent File:"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:187
+msgid "Edit File"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:188
+msgid "Update File"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:189
+#: wporg-developer/inc/registrations.php:190
+msgid "New File"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:191
+msgid "Files separated by comma"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:192
+msgid "Add or remove Files"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:193
+msgid "Choose from the most used Files"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:219
+msgid "@since"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:244
+#: wporg-developer/inc/registrations.php:277
+msgid "Uses Functions"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:244
+#: wporg-developer/inc/registrations.php:254
+#: wporg-developer/inc/registrations.php:264
+msgid "Used by Functions"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:254
+#: wporg-developer/inc/registrations.php:288
+msgid "Uses Methods"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:264
+#: wporg-developer/inc/registrations.php:298
+msgid "Uses Hooks"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:277
+#: wporg-developer/inc/registrations.php:288
+#: wporg-developer/inc/registrations.php:298
+msgid "Used by Methods"
+msgstr ""
+
+#: wporg-developer/inc/rest-api.php:28
+#: wporg-developer/inc/template-tags.php:662
+msgid "REST API Handbook"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:26
+msgid "Posts navigation"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:35
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:61
+msgid "Post navigation"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:199
+msgid "Feedback"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:224
+msgid "Log in to add feedback"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:228
+#: wporg-developer/inc/user-content.php:369
+msgid "Add feedback to this note"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:295
+msgid "Skip to note %d content"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:310
+msgid "Contributed by %s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:330
+#: wporg-developer/inc/template-tags.php:362
+msgid "edited"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:334
+#: wporg-developer/inc/template-tags.php:366
+msgid "awaiting moderation"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:347
+msgid "By %s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:399
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:457
+msgid "Your note is awaiting moderation."
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:469
+#. translators: 1: comment author, 2: date and time
+msgid "Contributed by %1$s on %2$s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:475
+#. translators: 1: date, 2: time
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:646
+msgid "Developer Resources: %s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:648
+#: wporg-developer/page-home-landing.php:19
+msgid "Code Reference"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:650
+msgid "Plugin Handbook"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:652
+msgid "Theme Handbook"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:658
+msgid "WP-CLI Commands"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:664
+msgid "Developer Resources"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1073
+#. translators: %s: Linked internal element name
+msgid "Use %s instead."
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1090
+#. translators: 1: parsed post post, 2: String for alternative function (if one
+#. exists)
+msgid "This %1$s has been deprecated.%2$s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1755
+#. translators: 1: Linked internal element name
+msgid " Use %s instead."
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1762
+#. translators: 1: String for alternative function (if one exists)
+msgid ""
+"This function&#8217;s access is marked private. This means it is not "
+"intended for use by plugin or theme developers, only in other core "
+"functions. It is listed here for completeness.%s"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1797
+msgid "Any type"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:1816 wporg-developer/searchform.php:54
+msgid "Filter by type:"
+msgstr ""
+
+#: wporg-developer/inc/user-content-edit.php:88
+msgid "<strong>ERROR</strong>: please type a comment."
+msgstr ""
+
+#: wporg-developer/inc/user-content-edit.php:90
+msgid "Comment Submission Failure"
+msgstr ""
+
+#: wporg-developer/inc/user-content-preview.php:43
+msgid "preview note"
+msgstr ""
+
+#: wporg-developer/inc/user-content-preview.php:44
+msgid "Nothing to preview"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:300
+msgid "Voting for this note is disabled"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:301
+msgid "Click to cancel your vote"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:302
+msgid "You must log in to vote on the helpfulness of this note"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:306
+msgid "Voting for your own note is disabled"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:316
+msgid "You have voted to indicate this note was helpful"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:317
+msgid "Vote up if this note was helpful"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:343
+msgid "%s like this"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:348
+msgid "Vote results for this note: "
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:357
+msgid "You have voted to indicate this note was not helpful"
+msgstr ""
+
+#: wporg-developer/inc/user-content-voting.php:358
+msgid "Vote down if this note was not helpful"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:176
+msgid "Show Feedback"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:177
+msgid "Hide Feedback"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:253
+#. translators: 1: user profile link, 2: accessibility text, 3: user name, 4:
+#. logout URL
+msgid ""
+"<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a "
+"href=\"%4$s\">Log out?</a>"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:256
+#. translators: %s: user name
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:261
+msgid ""
+"Notes should supplement code reference entries, for example examples, tips, "
+"explanations, use-cases, and best practices."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:263
+msgid ""
+"Feedback can be to report errors or omissions with the documentation on "
+"this page. Such feedback will not be publicly posted."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:267
+#. translators: 1: php button, 2: js button, 3: inline code button
+msgid ""
+"You can enter text and code. Use the %1$s, %2$s, or %3$s buttons to wrap "
+"code snippets."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:270
+msgid "inline code"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:273
+msgid "Submission Notes:"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:277
+msgid ""
+"You must <a href=\"%s\">log in</a> before being able to contribute a note "
+"or feedback."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:325
+msgid "Write"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:326
+msgid "Preview"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:370
+msgid "Add Feedback"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:379
+msgid "Edit feedback"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:381
+msgid "Edit Note"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:393
+#. translators: 1: note, 2: note author name
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:422
+msgid "Note"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:422
+msgid "No newlines allowed"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:423
+msgid "Allowed tags: %s"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:446
+#. translators: 1: GFDL link
+msgid ""
+"<strong>NOTE:</strong> All contributions are licensed under %s and are "
+"moderated before appearing on the site."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:451
+msgid ""
+"Use this form to report errors or to add additional information to this "
+"note."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:453
+msgid "Use this form to report errors or to add additional information to %s."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:457
+msgid "Feedback is part of the documentation."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:460
+msgid ""
+"This form is not for support requests, spam, bug reports, complaints, or "
+"self-promotion. Entries of this nature will be deleted."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:467
+msgid ""
+"This form is not for support requests, discussions, spam, bug reports, "
+"complaints, or self-promotion. Entries of this nature will be deleted."
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:469
+msgid ""
+"In the editing area the Tab key enters a tab character. To move below this "
+"area by pressing Tab, press the Esc key followed by the Tab key. In some "
+"cases the Esc key will need to be pressed twice before the Tab key will "
+"allow you to continue."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:27
+msgid "Filter&hellip;"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:35
+msgid "Admin Menu"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:66
+msgid "Welcome Screen"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:77
+msgid "Post Formats"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:98
+msgid "Media"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:122
+msgid "Image Editing"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:135
+msgid "TinyMCE"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:173
+msgid "Posts Screen"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:191
+msgid "Sorting"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:215
+msgid "Social"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:232
+msgid "WordPress.org Specific: Jobs, Profiles, WordCamps"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:251
+msgid "Buddicons"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:266
+msgid "Products"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:281
+msgid "Taxonomies"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:287
+msgid "Widgets"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:294
+msgid "Notifications"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:312
+msgid "Misc"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:372
+msgid "WordPress Usage"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:375
+msgid ""
+"Admin menu items can be added with <code><a "
+"href=\"%s\">register_post_type()</a></code> and <code><a "
+"href=\"%s\">add_menu_page()</a></code>, which both have an option to set an "
+"icon. To show the current icon, you should pass in %s."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:381
+#: wporg-developer/page-dashicons.php:437
+msgid "Examples"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:384
+msgid ""
+"In <code><a href=\"%s\">register_post_type()</a></code>, set "
+"<code>menu_icon</code> in the arguments array."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:411
+msgid ""
+"The function <code><a href=\"%s\">add_menu_page()</a></code> accepts a "
+"parameter after the callback function for an icon URL, which can also "
+"accept a dashicons class."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:433
+msgid "CSS/HTML Usage"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:435
+msgid ""
+"If you want to use dashicons in the admin outside of the menu, there are "
+"two helper classes you can use. These are <code>dashicons-before</code> and "
+"<code>dashicons</code>, and they can be thought of as setting up dashicons "
+"(since you still need your icon's class, too)."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:439
+msgid ""
+"Adding an icon to a header, with the <code>dashicons-before</code> class. "
+"This can be added right to the element with text."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:442
+#: wporg-developer/page-dashicons.php:448
+msgid "A Cheerful Headline"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:445
+msgid ""
+"Adding an icon to a header, with the <code>dashicons</code> class. Note "
+"that here, you need extra markup specifically for the icon."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:451
+msgid "Photoshop Usage"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:453
+msgid ""
+"Use the .OTF version of the font for Photoshop mockups, the web-font "
+"versions won't work. For most accurate results, pick the \"Sharp\" font "
+"smoothing."
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:466
+msgid "Copy CSS"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:467
+msgid "Copy HTML"
+msgstr ""
+
+#: wporg-developer/page-dashicons.php:468
+msgid "Copy Glyph"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:20
+msgid "Looking for documentation for the codebase?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:21
+msgid "Visit the reference"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:25
+msgid "Coding Standards"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:26
+msgid "Looking to ensure your code meets the standards?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:27
+msgid "Follow Standards "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:31
+msgid "Block Editor"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:32
+msgid "Creating the building blocks of WordPress?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:33
+msgid "Build Blocks "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:37
+msgid "Common APIs"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:38
+msgid "Interested in interacting with various APIs?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:39
+msgid "Utilize APIs"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:43
+msgid "Themes"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:44
+msgid "Want to learn how to start theming WordPress?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:45
+msgid "Develop Themes "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:49
+#: wporg-developer/page-reference-landing.php:95
+msgid "Plugins"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:50
+msgid "Ready to dive deep into the world of plugin authoring?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:51
+msgid "Develop Plugins "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:55
+#: wporg-developer/page-reference-landing.php:97
+msgid "REST API"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:56
+msgid "Getting started on making WordPress applications?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:57
+msgid "Make Applications "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:61
+msgid "WP-CLI"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:62
+msgid "Want to accelerate your workflow managing WordPress?"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:63
+msgid "Run Commands "
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:77
+msgid "Contribute"
+msgstr ""
+
+#: wporg-developer/page-home-landing.php:79
+msgid "Help Make WordPress"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:21
+msgid ""
+"Want to know what&#39;s going on inside WordPress? Search the Code "
+"Reference for more information about WordPress&#39; functions, classes, "
+"methods, and hooks."
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:22
+msgid "Try it out:"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:27
+msgid "Or browse through topics:"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:40
+msgid "New &amp; Updated in WordPress %s:"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:67
+msgid "View all&hellip;"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:73
+msgid "API"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:88
+msgid "Dashboard widgets"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:89
+msgid "Database"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:90
+msgid "HTTP API"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:91
+msgid "Filesystem"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:92
+msgid "Global Variables"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:93
+msgid "Metadata"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:94
+msgid "Options"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:96
+msgid "Quicktags"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:98
+msgid "Rewrite"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:99
+msgid "Settings"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:100
+msgid "Shortcode"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:101
+msgid "Theme Modification"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:102
+msgid "Transients"
+msgstr ""
+
+#: wporg-developer/page-reference-landing.php:103
+msgid "XML-RPC"
+msgstr ""
+
+#: wporg-developer/reference/template-changelog.php:16
+#: wporg-developer/reference/template-changelog.php:19
+msgid "Changelog"
+msgstr ""
+
+#: wporg-developer/reference/template-changelog.php:22
+msgid "Version"
+msgstr ""
+
+#: wporg-developer/reference/template-changelog.php:37
+msgid "Introduced."
+msgstr ""
+
+#: wporg-developer/reference/template-description.php:18
+msgid "See also"
+msgstr ""
+
+#: wporg-developer/reference/template-explanation.php:15
+msgid "More Information"
+msgstr ""
+
+#: wporg-developer/reference/template-methods.php:30
+msgid "deprecated"
+msgstr ""
+
+#: wporg-developer/reference/template-params.php:15
+msgid "Parameters"
+msgstr ""
+
+#: wporg-developer/reference/template-params.php:24
+#: wporg-developer/reference/template-params.php:27
+msgid "(%s)"
+msgstr ""
+
+#: wporg-developer/reference/template-params.php:34
+msgid "Default value:"
+msgstr ""
+
+#: wporg-developer/reference/template-related.php:23
+msgid "Related"
+msgstr ""
+
+#: wporg-developer/reference/template-related.php:27
+#: wporg-developer/reference/template-related.php:29
+#: wporg-developer/reference/template-related.php:32
+msgid "Uses"
+msgstr ""
+
+#: wporg-developer/reference/template-related.php:54
+#. translators: %d: remaining 'uses' count
+msgid "Show %d more use"
+msgid_plural "Show %d more uses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wporg-developer/reference/template-related.php:58
+msgid "Hide more uses"
+msgstr ""
+
+#: wporg-developer/reference/template-related.php:67
+#: wporg-developer/reference/template-related.php:69
+#: wporg-developer/reference/template-related.php:72
+msgid "Used By"
+msgstr ""
+
+#: wporg-developer/reference/template-related.php:94
+#. translators: %d: remaining 'used by' count
+msgid "Show %d more used by"
+msgid_plural "Show %d more used by"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wporg-developer/reference/template-related.php:98
+msgid "Hide more used by"
+msgstr ""
+
+#: wporg-developer/reference/template-return.php:16
+msgid "Return"
+msgstr ""
+
+#: wporg-developer/reference/template-source.php:16
+msgid "Source"
+msgstr ""
+
+#: wporg-developer/reference/template-source.php:18
+msgid "File: %s"
+msgstr ""
+
+#: wporg-developer/reference/template-source.php:32
+#: wporg-developer/reference/template-source.php:36
+msgid "View on Trac"
+msgstr ""
+
+#: wporg-developer/search.php:13
+msgid "Search Results"
+msgstr ""
+
+#: wporg-developer/searchform.php:23
+msgid "<strong>%d</strong> result found for \"<strong>%s</strong>\"."
+msgid_plural ""
+"<strong>%d</strong> results found for \"<strong>%s</strong>\". Showing "
+"results %d to %d."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wporg-developer/searchform.php:30
+msgid "<strong>%d</strong> results found for \"<strong>%s</strong>\"."
+msgstr ""
+
+#: wporg-developer/searchform.php:50
+msgid "Search plugins"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "RefPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://arthemes.org/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "wporg-developer child theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ArThemes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Dashicons Resource"
+msgstr ""
+
+#: wporg-developer/inc/registrations.php:181
+msgctxt "taxonomy general name"
+msgid "File"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:65
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:66
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: wporg-developer/inc/template-tags.php:286
+msgctxt "%1$s = human-readable time difference"
+msgid "%1$s ago"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:242
+msgctxt "noun"
+msgid "Add Note or Feedback"
+msgstr ""
+
+#: wporg-developer/inc/user-content.php:244
+msgctxt "noun"
+msgid "Edit Note"
+msgstr ""
+
+#: wporg-developer/searchform.php:48
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: wporg-developer/searchform.php:49
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
