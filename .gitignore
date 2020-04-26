@@ -1,0 +1,56 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+error_log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ApiGen #
+##########
+/apigen-docs/
+
+# Bower #
+#########
+/bower_components/
+
+# Composer #
+############
+/vendor/
+
+# Grunt #
+#########
+/node_modules/
+/deploy/
+
+# Sass #
+########
+.sass-cache/
+
+# Unit tests #
+##############
+/tmp
+/tests/bin/tmp
+tests/_output/*
+codeception.yml
+tests/acceptance.suite.yml
+tests/functional.suite.yml
+tests/integration.suite.yml
+tests/unit.suite.yml
+
+# NetBeans #
+############
+/nbproject/
+
+.htaccess
+wp-config.php
+.svn
