@@ -56,7 +56,12 @@ $GLOBALS['pagetitle'] = wp_get_document_title();
 						'theme_location'  => $active_menu,
 						'container_class' => 'menu-container',
 						'container_id'    => 'primary-menu',
-						) );
+						'fallback_cb'     => function() {
+							wp_page_menu( array(
+								'menu_class'   => 'menu-container',
+							) );
+						},
+					) );
 					?>
 				</nav>
 			</div>
