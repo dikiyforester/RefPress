@@ -54,3 +54,22 @@ function refpress_admin_scripts_styles() {
 
 }
 add_action( 'admin_enqueue_scripts', 'refpress_admin_scripts_styles', 20 );
+
+/**
+ * widgets_init function.
+ *
+ * @access public
+ * @return void
+ */
+function refpress_register_sidebars() {
+	register_sidebar( array(
+		'name'          => __( 'Footer', 'refpress' ),
+		'id'            => 'site_footer',
+		'description'   => __( 'Site footer', 'refpress' ),
+		'before_widget' => '<div id="%1$s" class="widget-footer widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+}
+add_action( 'widgets_init', 'refpress_register_sidebars' );

@@ -2,7 +2,7 @@
 /**
  * The template for displaying the Code Reference landing page.
  *
- * Template Name: Home
+ * Template Name: RefPress Home
  *
  * @package ArThemes
  */

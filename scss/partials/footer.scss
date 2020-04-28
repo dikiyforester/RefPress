@@ -1,0 +1,95 @@
+#wporg-footer {
+	font-size: 14px;
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 40px 14px 22px 14px;
+	border-top: 1px solid #DFDFDF;
+	background-color: #F7F7F7;
+	color: #BBB;
+
+	.wrapper {
+		overflow: auto;
+		max-width: 932px;
+		margin: auto;
+	}
+
+	a {
+		border: none;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.widget {
+		width: 135px;
+		float: left;
+		overflow: auto;
+		margin-left: 24px;
+		margin-bottom: 20px; /* for narrow screens */
+		padding-left: 0; /* override other generic styles */
+		font-size: 14px;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+
+	ul li {
+		margin-bottom: 1px;
+	}
+
+	.copyright {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.divider {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid rgba(187,187,187,0.3);
+	}
+}
+
+@media screen and (min-width:960px) {
+	#wporg-footer .widget:first-child {
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width:561px) and (max-width:974px) {
+	#wporg-footer .wrapper {
+		max-width: 600px;
+	}
+
+	#wporg-footer .widget {
+		margin-left: 2%;
+		width: 32%;
+		&:nth-child(3n+1) {
+			margin-left: 0;
+		}
+		&:nth-child(4n) {
+			clear: both;
+		}
+	}
+}
+
+@media screen and (max-width:560px) {
+	#wporg-footer .wrapper {
+		max-width: 360px;
+	}
+
+	#wporg-footer .widget {
+		margin-left: 4%;
+		width: 48%;
+		&:nth-child(2n+1) {
+			margin-left: 0;
+		}
+		&:nth-child(odd) {
+			clear: both;
+		}
+	}
+}
