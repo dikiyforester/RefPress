@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package ArThemes
+ * @package RefPress
  */
 
 $GLOBALS['pagetitle'] = wp_get_document_title();

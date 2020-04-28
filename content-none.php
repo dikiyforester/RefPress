@@ -4,7 +4,7 @@
  *
  * Learn more: https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package ArThemes
+ * @package RefPress
  */
 
 require RP_WPORG_DIR . '/' . basename( __FILE__ );

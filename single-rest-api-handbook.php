@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package ArThemes
+ * @package RefPress
  */
 
 require RP_WPORG_DIR . '/' . basename( __FILE__ );

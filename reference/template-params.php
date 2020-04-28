@@ -2,7 +2,7 @@
 /**
  * Reference Template: Parameters
  *
- * @package ArThemes
+ * @package RefPress
  * @subpackage Reference
  */
 

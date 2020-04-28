@@ -2,7 +2,7 @@
 /**
  * The sidebar template used in a handbook.
  *
- * @package ArThemes
+ * @package RefPress
  */
 
 require RP_WPORG_DIR . '/' . basename( __FILE__ );

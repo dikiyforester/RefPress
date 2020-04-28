@@ -2,7 +2,7 @@
 /**
  * Reference Template: Class Methods
  *
- * @package ArThemes
+ * @package RefPress
  * @subpackage Reference
  */
 

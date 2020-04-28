@@ -7,7 +7,7 @@
  * handled by a callback to wporg_developer_comment() which is
  * located in the inc/template-tags.php file.
  *
- * @package ArThemes
+ * @package RefPress
  */
 
 require RP_WPORG_DIR . '/' . basename( __FILE__ );
