@@ -9,13 +9,13 @@
  * @since   1.0.0
  */
 
-define( 'RP_WPORG_DIR', 'wporg-developer' );
+define( 'RP_WPORG_DIR', dirname( __FILE__ ) . '/wporg-developer' );
 define( 'RP_VERSION', '1.0.0' );
 
 /**
  * Load wporg-developer theme as dependency.
  */
-require __DIR__ . '/' . RP_WPORG_DIR . '/functions.php';
+require RP_WPORG_DIR . '/functions.php';
 
 /**
  * Alternate the core theme scripts and styles.
