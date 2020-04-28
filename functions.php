@@ -73,3 +73,28 @@ function refpress_register_sidebars() {
 	) );
 }
 add_action( 'widgets_init', 'refpress_register_sidebars' );
+
+/**
+ * Handles adding/removing hooks as needed.
+ */
+add_action( 'init', function() {
+	// Do not add default WordPress meta tags.
+	remove_action( 'wp_head', array( 'DevHub_Head', 'output_head_tags' ), 2 );
+}, 11 );
+
+/**
+ * Merge textdomains so included libs can use the theme translations.
+ */
+add_action( 'load_textdomain', function( $domain, $mofile ) {
+	if ( 'refpress' === $domain && file_exists( $mofile ) ) {
+		load_textdomain( 'wporg', $mofile );
+		load_textdomain( 'breadcrumb-trail', $mofile );
+	}
+}, 10, 2 );
+
+/**
+ * Load theme textdomain.
+ */
+add_action( 'after_setup_theme', function () {
+	load_theme_textdomain( 'refpress', get_template_directory() . '/languages' );
+} );
