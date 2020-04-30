@@ -13,6 +13,17 @@ define( 'RP_WPORG_DIR', dirname( __FILE__ ) . '/wporg-developer' );
 define( 'RP_VERSION', '1.0.0' );
 
 /**
+ * Overrided core theme functions.
+ *
+ * Core Theme upgrade checklist:
+ * 1. Find and override hardcoded usages of wordpress.org in URLs
+ * 2. Check the templates (new or changed)
+ * 3. Check overrided functions and templates
+ * 4. Check out JS scripts and SCSS styles
+ */
+require dirname( __FILE__ ) . '/inc/core-overrides.php';
+
+/**
  * Load wporg-developer theme as dependency.
  */
 require RP_WPORG_DIR . '/functions.php';
