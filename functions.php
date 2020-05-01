@@ -29,6 +29,15 @@ require dirname( __FILE__ ) . '/inc/core-overrides.php';
 require RP_WPORG_DIR . '/functions.php';
 
 /**
+ * Load other dependencies.
+ */
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	require __DIR__ . '/vendor/autoload.php';
+	require __DIR__ . '/lib/phpdoc-parser/plugin.php';
+}
+
+
+/**
  * Alternate the core theme scripts and styles.
  */
 function refpress_scripts_styles() {

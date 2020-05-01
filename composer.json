@@ -1,0 +1,32 @@
+{
+	"name"       : "dikiyforester/refpress",
+	"description": "Fork of the wporg-developer theme adapted for using outside developer.wordpress.org",
+	"keywords"   : ["wordpress"],
+	"type"       : "wordpress-theme",
+	"homepage"   : "https://github.com/dikiyforester/RefPress",
+	"license"    : "GPL-2.0-or-later",
+	"authors"    : [
+		{
+			"name"    : "Frolov Artem",
+			"homepage": "https://arthemes.org",
+			"role"    : "Developer"
+		},
+		{
+			"name"    : "Contributors",
+			"homepage": "https://github.com/dikiyforester/RefPress/graphs/contributors"
+		}
+	],
+	"support"    : {
+		"issues": "https://github.com/dikiyforester/RefPress/issues"
+	},
+	"require"    : {
+		"wordpress/phpdoc-parser" : "dev-master@dev"
+	},
+    "extra": {
+		"installer-paths": {
+			"lib/{$name}": ["wordpress/phpdoc-parser"]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
