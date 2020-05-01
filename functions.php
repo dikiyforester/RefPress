@@ -33,7 +33,7 @@ require RP_WPORG_DIR . '/functions.php';
  */
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	require __DIR__ . '/vendor/autoload.php';
-	require __DIR__ . '/lib/phpdoc-parser/plugin.php';
+	require __DIR__ . '/vendor/phpdoc-parser/plugin.php';
 }
 
 
