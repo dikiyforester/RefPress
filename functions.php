@@ -9,6 +9,8 @@
  * @since   1.0.0
  */
 
+namespace RefPress;
+
 define( 'RP_WPORG_DIR', dirname( __FILE__ ) . '/wporg-developer' );
 define( 'RP_VERSION', '1.0.0' );
 
@@ -40,7 +42,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 /**
  * Alternate the core theme scripts and styles.
  */
-function refpress_scripts_styles() {
+function scripts_styles() {
 	wp_dequeue_style( 'awesomplete-css' );
 	wp_dequeue_style( 'autocomplete-css' );
 	wp_dequeue_style( 'wporg-developer-style' );
@@ -55,12 +57,12 @@ function refpress_scripts_styles() {
 	wp_style_add_data( 'refpress-style', 'suffix', $min );
 
 }
-add_action( 'wp_enqueue_scripts', 'refpress_scripts_styles', 20 );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\scripts_styles', 20 );
 
 /**
  * Alternate the core admin scripts and styles.
  */
-function refpress_admin_scripts_styles() {
+function admin_scripts_styles() {
 
 	// Minimize prod or show expanded in dev.
 	$min = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
@@ -73,7 +75,7 @@ function refpress_admin_scripts_styles() {
 	wp_style_add_data( 'refpress-admin-style', 'suffix', $min );
 
 }
-add_action( 'admin_enqueue_scripts', 'refpress_admin_scripts_styles', 20 );
+add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\\admin_scripts_styles', 20 );
 
 /**
  * widgets_init function.
@@ -81,7 +83,7 @@ add_action( 'admin_enqueue_scripts', 'refpress_admin_scripts_styles', 20 );
  * @access public
  * @return void
  */
-function refpress_register_sidebars() {
+function register_sidebars() {
 	register_sidebar( array(
 		'name'          => __( 'Footer', 'refpress' ),
 		'id'            => 'site_footer',
@@ -92,7 +94,7 @@ function refpress_register_sidebars() {
 		'after_title'   => '</h3>',
 	) );
 }
-add_action( 'widgets_init', 'refpress_register_sidebars' );
+add_action( 'widgets_init', __NAMESPACE__ . '\\register_sidebars' );
 
 /**
  * Handles adding/removing hooks as needed.
@@ -109,6 +111,7 @@ add_action( 'load_textdomain', function( $domain, $mofile ) {
 	if ( 'refpress' === $domain && file_exists( $mofile ) ) {
 		load_textdomain( 'wporg', $mofile );
 		load_textdomain( 'breadcrumb-trail', $mofile );
+		load_textdomain( 'wp-parser', $mofile );
 	}
 }, 10, 2 );
 
