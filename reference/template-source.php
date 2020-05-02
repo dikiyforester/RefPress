@@ -8,6 +8,12 @@
 
 namespace DevHub;
 
+global $refpress_options;
+
+if ( ! $refpress_options->source_code ) {
+	return;
+}
+
 $source_file = get_source_file();
 if ( ! empty( $source_file ) ) :
 	?>

@@ -36,6 +36,29 @@ require RP_WPORG_DIR . '/functions.php';
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	require __DIR__ . '/vendor/autoload.php';
 	require __DIR__ . '/vendor/phpdoc-parser/plugin.php';
+
+	// In case the full P2P plugin is activated.
+	if ( ! class_exists( '\P2P_Storage', false ) ) {
+		define( 'P2P_TEXTDOMAIN', 'refpress' );
+	}
+
+	// Initializes the database tables.
+	\P2P_Storage::init();
+	// Initializes the query mechanism.
+	\P2P_Query_Post::init();
+
+	add_action( 'after_switch_theme', function() {
+		\P2P_Storage::init();
+		\P2P_Storage::install();
+	} );
+
+	require __DIR__ . '/inc/options.php';
+
+	if ( is_admin() ) {
+		require __DIR__ . '/inc/settings.php';
+
+		new Settings( $GLOBALS['refpress_options'] );
+	}
 }
 
 
