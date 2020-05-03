@@ -79,6 +79,10 @@ function scripts_styles() {
 	wp_style_add_data( 'refpress-style', 'rtl', 'replace' );
 	wp_style_add_data( 'refpress-style', 'suffix', $min );
 
+	if ( ( ! is_admin() ) && is_singular( 'post' ) && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\scripts_styles', 20 );
 
@@ -120,11 +124,26 @@ function register_sidebars() {
 add_action( 'widgets_init', __NAMESPACE__ . '\\register_sidebars' );
 
 /**
+ * Add theme supports.
+ */
+add_action( 'init', function() {
+	/*
+	 * Let WordPress manage the document title.
+	 * By adding theme support, we declare that this theme does not use a
+	 * hard-coded <title> tag in the document head, and expect WordPress to
+	 * provide it for us.
+	 */
+	add_theme_support( 'title-tag' );
+}, 10 );
+
+/**
  * Handles adding/removing hooks as needed.
  */
 add_action( 'init', function() {
 	// Do not add default WordPress meta tags.
 	remove_action( 'wp_head', array( 'DevHub_Head', 'output_head_tags' ), 2 );
+
+	add_theme_support( 'post-thumbnails' );
 }, 11 );
 
 /**
